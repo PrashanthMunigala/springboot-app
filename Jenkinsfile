@@ -11,7 +11,7 @@ node {
     
     
     stage ('Build') {
-            sh 'mvn -f MyAwesomeApp/pom.xml clean install'            
+            sh 'maven -f MyAwesomeApp/pom.xml clean install'            
         }
         
     stage ('archive') {
